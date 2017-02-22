@@ -26,7 +26,23 @@ For access to the eRail API you would need a API Key.
 
 You can get the API Key from here http://api.erail.in/
 
-Todo...
+*Using the module*
+^^^^^^^^^^^^^^^^^^
+
+Creating an instance object of class
+	
+	>>> from pyerail import Erail ::
+	>>> eRail = Erail(api_key) ::
+
+Getting details of given PNR number
+	
+	>>> eRail.pnr(your_pnr_number) ::
+
+
+In any case the object returns
+	
+	"status" and "result" ::
+
 
 **Examples**
 ************
@@ -42,4 +58,4 @@ Contributions are welcome!.
 **Todo**
 ********
 
-Todo..
+1. Add Python 2 support
