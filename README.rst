@@ -29,19 +29,23 @@ You can get the API Key from here http://api.erail.in/
 *Using the module*
 ^^^^^^^^^^^^^^^^^^
 
-Creating an instance object of class :: python
+Creating an instance object of class
+
+.. code :: python
 	
 	>>> from pyerail import Erail
 	>>> eRail = Erail(api_key)
 
-Getting details of given PNR number :: python 
+Getting details of given PNR number
+
+.. code :: python
 	
 	>>> eRail.pnr(your_pnr_number)
 
 
-In any case the object returns :: python
+In any case the object returns
 	
-	"status" and "result" ::
+	"status" and "result"
 
 
 **Examples**
