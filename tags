@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__init__.py	PyeRail/__init__.py	1;"	kind:file	line:1
+author	setup.py	/^    author='Akshay',$/;"	kind:variable	line:24
+author_email	setup.py	/^    author_email='akshayjr69@gmail.com',$/;"	kind:variable	line:26
+description	setup.py	/^    description='Python wrapper for eRail API.',$/;"	kind:variable	line:20
+license	setup.py	/^    license = f.read()$/;"	kind:variable	line:12
+license	setup.py	/^    license=license,$/;"	kind:variable	line:30
+long_description	setup.py	/^    long_description=readme,$/;"	kind:variable	line:22
+name	setup.py	/^    name='PyeRail',$/;"	kind:variable	line:16
+packages	setup.py	/^    packages=find_packages(exclude=('tests', 'docs'))$/;"	kind:variable	line:32
+readme	setup.py	/^    readme = f.read()$/;"	kind:variable	line:8
+setup.py	setup.py	1;"	kind:file	line:1
+url	setup.py	/^    url='https:\/\/github.com\/aksbuzz\/PyeRail',$/;"	kind:variable	line:28
+version	setup.py	/^    version='0.1.0',$/;"	kind:variable	line:18
