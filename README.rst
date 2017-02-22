@@ -24,7 +24,7 @@ Todo...
 ^^^^^^^^^
 For access to the eRail API you would need a API Key.
 
-You can get the API Key from here <http://api.erail.in/>
+You can get the API Key from here http://api.erail.in/
 
 Todo...
 
