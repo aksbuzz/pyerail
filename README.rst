@@ -1,8 +1,13 @@
-PyeRail : Python wrapper around the eRail API
-=============================================
+.. image:: http://api.erail.in/images/eRail196x196.png
+   :height: 100px
+   :scale: 50 %
+   :align: right 
+
+PyeRail : eRail python wrapper
+==============================
 
 **What is it?**
-**************
+****************
 
 PyeRail is a Python wrapper for the eRail web API.
 
@@ -62,4 +67,5 @@ Contributions are welcome!.
 **Todo**
 ********
 
-1. Add Python 2 support
+- Add Python 2 support
+
