@@ -33,7 +33,7 @@ Todo...
 
 You can find example usage in the examples folder.
 
-**Contributing**
+**Contribution**
 ****************
 
 Contributions are welcome!.
