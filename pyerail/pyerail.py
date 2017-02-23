@@ -87,9 +87,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -170,9 +170,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -225,9 +225,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -261,9 +261,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -317,9 +317,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -349,9 +349,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -381,9 +381,9 @@ class Erail(object):
         try:
 
             assert helpers.vali_date(date) == True
-            
+
         except AssertionError:
-            
+
             return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
@@ -410,9 +410,9 @@ class Erail(object):
 
         params = {
             "key": self.key,
-            "stnfrom":stnfrom,
-            "stnto":stnto,
-            "hr":hr
+            "stnfrom": stnfrom,
+            "stnto": stnto,
+            "hr": hr
         }
 
         url = self.end_point + "/trainsatstation/"
@@ -438,7 +438,6 @@ class Erail(object):
         url = self.end_point + "/rakes/"
 
         return self.get_result(url, params)
-
 
     def get_result(self, url, params):
         '''
