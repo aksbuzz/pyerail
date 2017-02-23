@@ -36,20 +36,16 @@ def vali_date(date):
 
     date_, month, year = list(date.split('-'))
 
-    month = DATES[month]
+    month = DATES[month.upper()]
 
     date = date_ + "-" + month + "-" + year
 
     try:
-        
-        datetime.strptime(date,'%d-%B-%Y')
+
+        datetime.strptime(date, '%d-%B-%Y')
 
         return True
 
     except ValueError:
-        
-        return "invalid date format >> must be in 'DD-MMM-YYYY'"
 
-if __name__ == '__main__':
-    
-    assert vali_date('5-SEP-2016')
+        return False

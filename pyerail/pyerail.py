@@ -84,6 +84,14 @@ class Erail(object):
 
         '''
 
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
+
         params = {
 
             "key": self.key,
@@ -159,6 +167,14 @@ class Erail(object):
             : class_  > Specifies the class code.
         '''
 
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
+
         params = {
             "key": self.key,
             "trainno": trainno,
@@ -205,6 +221,15 @@ class Erail(object):
             : date    > Specifies the date for which result is required.
             : trainno > Specifies the train number.
         '''
+
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
+
         params = {
             "key": self.key,
             "stnfrom": stnfrom,
@@ -232,6 +257,14 @@ class Erail(object):
             : class_  > Specifies the class code.
             : quota   > Specifies the quota selected.
         '''
+
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
             "key": self.key,
@@ -281,6 +314,14 @@ class Erail(object):
                     TM - Tomorrow
         '''
 
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
+
         params = {
             "key": self.key,
             "date": date
@@ -305,6 +346,14 @@ class Erail(object):
                     TM - Tomorrow
         '''
 
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
+
         params = {
             "key": self.key,
             "date": date
@@ -328,6 +377,14 @@ class Erail(object):
                     YS - Yesterday,
                     TM - Tomorrow
         '''
+
+        try:
+
+            assert helpers.vali_date(date) == True
+            
+        except AssertionError:
+            
+            return "Invalid Date Format, must be 'DD-MMM-YYYY'"
 
         params = {
             "key": self.key,
