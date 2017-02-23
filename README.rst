@@ -63,6 +63,8 @@ You can find example usage in the examples folder.
 
 Contributions are welcome!.
 
+**Documentation**
+****************
 
 **Todo**
 ********
