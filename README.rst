@@ -66,8 +66,10 @@ Contributions are welcome!.
 **Documentation**
 ****************
 
+Documentation at http://api.erail.in/
+
 **Todo**
 ********
 
 - Add Python 2 support
-
+- Add detailed documentation
