@@ -5,6 +5,11 @@
   :width: 20px
   :height: 20px
 
+.. image:: https://travis-ci.org/aksbuzz/PyeRail.svg?branch=master
+    :target: https://travis-ci.org/aksbuzz/PyeRail
+
+
+
 **What is it?**
 ****************
 
