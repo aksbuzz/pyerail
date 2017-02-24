@@ -19,7 +19,15 @@ PyeRail reqires Python 3.
 **Install**
 ***********
 
-Todo...
+You can install pyerail using:
+
+	$ pip3 install pyerail
+
+Build from source
+	
+	$ git clone https://github.com/aksbuzz/PyeRail.git
+	$ cd PyeRail
+	$ python3 setup.py install
 
 
 **Usage**
