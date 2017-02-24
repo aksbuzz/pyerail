@@ -21,6 +21,8 @@ PyeRail reqires Python 3.
 
 You can install pyerail using:
 
+.. code ::
+
 	$ pip3 install pyerail
 
 Build from source
