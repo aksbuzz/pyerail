@@ -5,7 +5,7 @@
   :width: 20px
   :height: 20px
 
-|build|  |repo|  |version|  |format|  |grade|  |coverage|
+|build|  |repo|  |format|  |grade|  |coverage|
 
 .. |build| image:: https://travis-ci.org/aksbuzz/PyeRail.svg?branch=master
     :target: https://travis-ci.org/aksbuzz/PyeRail
@@ -14,9 +14,6 @@
 .. |repo| image:: https://img.shields.io/badge/source-GitHub-blue.svg?maxAge=3600
    :target: https://github.com/aksbuzz/pyerail
 
-
-.. |versions| image:: https://img.shields.io/pypi/v/pyerail.svg?maxAge=3600
-   :target: https://pypi.python.org/pypi/pyerail
 
 .. |format| image:: https://img.shields.io/pypi/format/pyerail.svg?maxAge=3600
    :target: https://pypi.python.org/pypi/pyerail
