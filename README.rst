@@ -5,9 +5,27 @@
   :width: 20px
   :height: 20px
 
-.. image:: https://travis-ci.org/aksbuzz/PyeRail.svg?branch=master
+|build|  |repo|  |version|  |format|  |grade|  |coverage|
+
+.. |build| image:: https://travis-ci.org/aksbuzz/PyeRail.svg?branch=master
     :target: https://travis-ci.org/aksbuzz/PyeRail
 
+
+.. |repo| image:: https://img.shields.io/badge/source-GitHub-blue.svg?maxAge=3600
+   :target: https://github.com/aksbuzz/pyerail
+
+
+.. |versions| image:: https://img.shields.io/pypi/v/pyerail.svg?maxAge=3600
+   :target: https://pypi.python.org/pypi/pyerail
+
+.. |format| image:: https://img.shields.io/pypi/format/pyerail.svg?maxAge=3600
+   :target: https://pypi.python.org/pypi/pyerail
+
+.. |grade| image:: https://img.shields.io/codacy/grade/9b8c7da6887c4195b9e960cb04b59a91/master.svg?maxAge=3600
+   :target: https://www.codacy.com/app/aksbuzz/pyerail/dashboard
+
+.. |coverage| image:: https://img.shields.io/codacy/coverage/9b8c7da6887c4195b9e960cb04b59a91/master.svg?maxAge=3600
+   :target: https://www.codacy.com/app/aksbuzz/pyerail/files
 
 
 **What is it?**
