@@ -32,7 +32,7 @@ Build from source
 
 	$ cd PyeRail
 
-	$ python3 setup.py install
+	$ make
 
 
 **Usage**
