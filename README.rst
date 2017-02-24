@@ -1,8 +1,9 @@
-|pyerail_logo| PyeRail : eRail python wrapper
+|block| PyeRail : eRail python wrapper
 =============================================
 
-.. |pyerail_logo| image:: http://api.erail.in/images/eRail196x196.png
-
+.. |block| image:: http://api.erail.in/images/eRail196x196.png
+  :width: 20px
+  :height: 20px
 
 **What is it?**
 ****************
@@ -76,7 +77,7 @@ You can find example usage in the examples folder.
 Contributions are welcome!.
 
 **Documentation**
-****************
+*****************
 
 Documentation at http://api.erail.in/
 
