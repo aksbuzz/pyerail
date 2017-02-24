@@ -1,10 +1,8 @@
-.. image:: http://api.erail.in/images/eRail196x196.png
-   :height: 100px
-   :scale: 50 %
-   :align: right 
+|pyerail_logo| PyeRail : eRail python wrapper
+=============================================
 
-PyeRail : eRail python wrapper
-==============================
+.. image:: http://api.erail.in/images/eRail196x196.png
+   
 
 **What is it?**
 ****************
