@@ -1,8 +1,8 @@
 |pyerail_logo| PyeRail : eRail python wrapper
 =============================================
 
-.. image:: http://api.erail.in/images/eRail196x196.png
-   
+.. |pyerail_logo| image:: http://api.erail.in/images/eRail196x196.png
+
 
 **What is it?**
 ****************
